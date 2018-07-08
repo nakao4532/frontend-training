@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+    client:
+        image: node:9.11
+        ports:
+            - 3000:3000
+        volumes:
+            - ./client:/usr/src/app
+        working_dir: /usr/src/app
+        command: bash -c "npm i && npm run dev"
