@@ -1,0 +1,24 @@
+{
+  "name": "open_id_training",
+  "title": "OpenIdTraining",
+  "version": "1.0.0",
+  "author": "nakao4532",
+  "license": {
+    "type": "MIT"
+  },
+  "scripts": {
+    "dev": "nodemon --watch js --watch less --watch pages -e js,less,css --exec 'gulp && lite-server'"
+  },
+  "devDependencies": {
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony",
+    "lite-server": "^2.3.0",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "nodemon": "^1.17.5"
+  }
+}
