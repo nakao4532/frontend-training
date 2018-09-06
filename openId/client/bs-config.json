@@ -1,5 +1,6 @@
 {
     "server": {
       "baseDir": ["./"]
-    }
+    },
+    "cors": true
 }
